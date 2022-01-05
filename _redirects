@@ -1,0 +1,2 @@
+/api/* http://simple-mern-todo-app.herokuapp.com/api/todos/:splat 200
+/* /index.html 200
