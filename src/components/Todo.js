@@ -9,6 +9,9 @@ class Todo extends Component {
   componentDidMont(){
     this.getTodos();
   }
+  componentDidUpdate() {
+    this.getTodos();
+  }
   getTodos = () => {
     axios.get('/api/todos')
       .then(res => {
