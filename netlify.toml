@@ -1,4 +1,6 @@
 [[redirects]]
-  from = "/*"
-  to = "/"
+  from = "/api/todos/"
+  to = "https://simple-mern-todo-app.herokuapp.com/api/todos/"
   status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
